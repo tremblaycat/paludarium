@@ -10,6 +10,11 @@ export default function TankArea() {
           <button type='button'>Midground</button>
           <button type='button'>Background</button>
         </div>
+        <div className='substrate-buttons'>
+          <button type='button'>Boreal</button>
+          <button type='button'>Desert</button>
+          <button type='button'>Rainforest</button>
+        </div>
     </>
   )
 }
