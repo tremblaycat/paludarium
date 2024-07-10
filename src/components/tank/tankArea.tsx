@@ -5,7 +5,10 @@ export default function TankArea() {
 
   return (
     <>
-        <div>
+        <div className='layer-buttons'>
+          <button type='button'>Foreground</button>
+          <button type='button'>Midground</button>
+          <button type='button'>Background</button>
         </div>
     </>
   )
