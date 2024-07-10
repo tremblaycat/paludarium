@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import SelectionArea from './components/selection/selectionArea'
 import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +10,9 @@ function App() {
     <>
       <div className='app-container'>
         <div className='tank-container'></div>
-        <div className='selection-container'></div>
+        <div className='selection-container'>
+          <SelectionArea />
+        </div>
        </div>
     </>
   )
