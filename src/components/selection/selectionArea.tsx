@@ -12,7 +12,12 @@ export default function SelectionArea() {
     <>
     <div className='selection-layout-flex'>
       <div className='selection-list-area'></div>
-      <div className='selection-tab-button-area'></div>
+      <div className='selection-tab-button-area'>
+        <SelectionTabButton />
+        <SelectionTabButton />
+        <SelectionTabButton />
+        <SelectionTabButton />
+      </div>
     </div>
     </>
   )
