@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import SelectionArea from './components/selection/selectionArea'
 import './App.css'
+import TankArea from './components/tank/tankArea'
 
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
   return (
     <>
       <div className='app-container'>
-        <div className='tank-container'></div>
+        <div className='tank-container'>
+          <TankArea />
+        </div>
         <div className='selection-container'>
           <SelectionArea />
         </div>
