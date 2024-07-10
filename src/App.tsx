@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <div className='app-container'>
-        <div className='tank-container'></div>
+        <div className='tank-container'>
+          
+        </div>
         <div className='selection-container'>
           <SelectionArea />
         </div>
