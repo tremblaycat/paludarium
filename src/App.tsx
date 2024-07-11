@@ -19,6 +19,10 @@ function App() {
           <TankArea />
         </div>
         <div className='selection-container'>
+          {/* a custom html <tag> like this is called a component 
+          we can give components parameters just like functions
+          check the selectionArea.tsx file
+          */}
           <SelectionArea 
             selectionModeState={selectionModeState} 
             setSelectionModeState={setSelectionModeState}

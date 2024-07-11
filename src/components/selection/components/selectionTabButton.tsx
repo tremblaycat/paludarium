@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction } from 'react'
 import '../../App.css';
-import { SelectionModeData } from './models/selectionModeData';
-import { AppColors } from '../../colors';
+import { SelectionModeData } from '../models/selectionModeData';
+import { AppColors } from '../../../colors';
 
 export default function SelectionTabButton(
   {buttonData, selectionModeState, setSelectionModeState}: 
@@ -13,6 +13,8 @@ export default function SelectionTabButton(
   return (
     <>
         <div>
+          {/* react lets us access css directly with the style={{}} syntax
+          when using this syntax, access it with camel case, ie background-color is backgroundColor */}
           <div style={{ backgroundColor : selectionModeState == buttonData ? AppColors.lightGrey : AppColors.darkGrey}} className='selection-tab-button-container'>
             <button onClick={() => {
               setSelectionModeState(buttonData);
