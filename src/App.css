@@ -20,7 +20,7 @@ button{
 }
 
 button:hover, button:active{
-  border: 0;
+  border-color: #fff;
 }
 
 
