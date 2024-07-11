@@ -14,26 +14,21 @@
   display: flex;
 }
 
-.selection-container {
-  width: 600px;
-  height: 100%;
-  background-color: chartreuse;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
 button{
   padding: 5px 15px;
   border-radius: 6px;
 }
 
 button:hover, button:active{
-  border: 0;
+  border-color: #fff;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
 
 /* Tank Section */
@@ -77,4 +72,49 @@ button:hover, button:active{
   left: 0;
   right: 0;
   padding: 20px;
+}
+
+/* Selection Area */
+
+.selection-container {
+  width: 600px;
+  height: 100%;
+  background-color: chartreuse;
+}
+
+.selection-layout-flex {
+  display: flex;
+}
+
+.selection-list-area {
+  width: 100%;
+  height: 100vh;
+  background-color: #D9D9D9;
+}
+
+.selection-tab-button-area {
+  width: 150px;
+  height: 100vh;
+  background-color: #3F3F3F;
+}
+
+.selection-tab-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+
+.selection-tab-button {
+  padding: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.selection-tab-button-icon {
+  width: 40px;
+  height: 40px;
 }
